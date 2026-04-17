@@ -1654,6 +1654,12 @@ section {
   border-radius: var(--radius-base);
 }
 
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-12);
+}
+
 .pulse-hover:hover {
   animation: pulse 1s ease-in-out;
   background: var(--color-bg-1);
